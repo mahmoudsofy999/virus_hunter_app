@@ -1,0 +1,58 @@
+name: virus_hunter_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  provider: any
+  shared_preferences: ^2.2.2
+  http: any
+  file_picker: ^6.1.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/splash_logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/splash_logo.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/splash_logo.png
+  background_image: assets/splash_bg.png
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    # ✅ Original assets
+    - assets/logo.png
+    - assets/logo_robot.png
+    - assets/logo_robot2.png
+    - assets/circuit_bg.png
+    - assets/splash_logo.png
+
+    # ✅ New assets added for updated UI
+    - assets/logo_icon2.png
+    - assets/robot2.png
+    - assets/circuit_bg3.png
+    - assets/splash_bg.png
+    - assets/settings_icon.png
+    - assets/reset_robot.png
